@@ -8,13 +8,6 @@
    ======================================== */
 
 /* ----------------------------------------
-   ⓪ デバッグモード
-      true にすると結果画面に上位5キャラの点数を表示
-      公開前に false に戻してください
-   ---------------------------------------- */
-const DEBUG_MODE = true;
-
-/* ----------------------------------------
    ① Xシェア文テンプレート
       {name} がキャラ名に置き換わります
    ---------------------------------------- */
@@ -633,21 +626,6 @@ function showResult() {
 
   // シェアボタン
   document.getElementById('btn-share').onclick = () => shareToX(winner.name);
-
-  // デバッグ：上位5キャラの点数表示
-  const debugEl = document.getElementById('debug-scores');
-  if (DEBUG_MODE) {
-    const ranked = CHARACTERS
-      .map(c => ({ name: c.name, score: totals[c.id], priority: c.priority }))
-      .sort((a, b) => b.score - a.score || a.priority - b.priority)
-      .slice(0, 5);
-    debugEl.innerHTML = ranked
-      .map((c, i) => `<li><span class="debug-rank">${i + 1}位</span><span class="debug-name">${c.name}</span><span class="debug-score">${c.score}点</span></li>`)
-      .join('');
-    debugEl.parentElement.style.display = 'block';
-  } else {
-    debugEl.parentElement.style.display = 'none';
-  }
 
   showScreen('result');
 }

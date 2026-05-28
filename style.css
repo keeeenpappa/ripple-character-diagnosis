@@ -752,65 +752,6 @@ body {
   .result-character-name { font-size: 1.7rem; }
 }
 
-/* ========================================
-   デバッグパネル
-   ======================================== */
-.debug-panel {
-  margin-top: 24px;
-  padding: 14px 16px;
-  background: rgba(0,0,0,0.06);
-  border: 1.5px dashed rgba(0,0,0,0.2);
-  border-radius: 10px;
-  position: relative;
-  z-index: 1;
-}
-
-.debug-label {
-  font-size: 0.78rem;
-  font-weight: bold;
-  color: #888;
-  margin-bottom: 10px;
-  letter-spacing: 0.04em;
-}
-
-.debug-scores {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
-
-.debug-scores li {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  font-size: 0.88rem;
-  color: #555;
-  padding: 5px 10px;
-  background: rgba(255,255,255,0.5);
-  border-radius: 6px;
-}
-
-.debug-rank {
-  font-weight: bold;
-  color: #999;
-  min-width: 28px;
-}
-
-.debug-name {
-  flex: 1;
-  color: #333;
-}
-
-.debug-score {
-  font-weight: bold;
-  color: #1a8fd1;
-  min-width: 36px;
-  text-align: right;
-}
-
 /* フォーカスアクセシビリティ */
 .btn:focus-visible {
   outline: 3px solid #1a8fd1;
