@@ -28,7 +28,7 @@ const CHARACTERS = [
   {
     id: 'kyle',
     name: 'カイル',
-    imagePath: 'assets/characters/kyle.png',
+    imagePath: 'characters/kyle.png',
     theme: 'theme-kyle',
     priority: 1,
     typeName: 'テキパキ万能アタッカー',
@@ -39,7 +39,7 @@ const CHARACTERS = [
   {
     id: 'cal',
     name: 'キャル',
-    imagePath: 'assets/characters/cal.png',
+    imagePath: 'characters/cal.png',
     theme: 'theme-cal',
     priority: 2,
     typeName: 'みんなを支える献身サポーター',
@@ -50,7 +50,7 @@ const CHARACTERS = [
   {
     id: 'preri',
     name: 'プレリ',
-    imagePath: 'assets/characters/preri.png',
+    imagePath: 'characters/preri.png',
     theme: 'theme-preri',
     priority: 3,
     typeName: 'ひらめき重視のテクニカル',
@@ -61,7 +61,7 @@ const CHARACTERS = [
   {
     id: 'rasuku',
     name: 'ラスク',
-    imagePath: 'assets/characters/rasuku.png',
+    imagePath: 'characters/rasuku.png',
     theme: 'theme-rasuku',
     priority: 4,
     typeName: 'クリアを支える皿洗い職人',
@@ -72,7 +72,7 @@ const CHARACTERS = [
   {
     id: 'ane',
     name: 'あね',
-    imagePath: 'assets/characters/ane.png',
+    imagePath: 'characters/ane.png',
     theme: 'theme-ane',
     priority: 5,
     typeName: 'タイミングを読む後方支援',
@@ -83,7 +83,7 @@ const CHARACTERS = [
   {
     id: 'imouto',
     name: 'いもうと',
-    imagePath: 'assets/characters/imouto.png',
+    imagePath: 'characters/imouto.png',
     theme: 'theme-imouto',
     priority: 6,
     typeName: '気配り上手な環境整備',
@@ -94,7 +94,7 @@ const CHARACTERS = [
   {
     id: 'soncho',
     name: 'そんちょう',
-    imagePath: 'assets/characters/soncho.png',
+    imagePath: 'characters/soncho.png',
     theme: 'theme-soncho',
     priority: 7,
     typeName: '存在感で場を和ませるロマン',
@@ -105,7 +105,7 @@ const CHARACTERS = [
   {
     id: 'kureru',
     name: 'クレル',
-    imagePath: 'assets/characters/kureru.png',
+    imagePath: 'characters/kureru.png',
     theme: 'theme-kureru',
     priority: 8,
     typeName: '快適さ重視ののんびり効率化',
@@ -116,7 +116,7 @@ const CHARACTERS = [
   {
     id: 'monoshiri_jii',
     name: 'ものしりじいさん',
-    imagePath: 'assets/characters/monoshiri_jii.png',
+    imagePath: 'characters/monoshiri_jii.png',
     theme: 'theme-monoshiri_jii',
     priority: 9,
     typeName: '渋く支える畑の管理人',
@@ -127,7 +127,7 @@ const CHARACTERS = [
   {
     id: 'otokonoko',
     name: 'おとこのこ',
-    imagePath: 'assets/characters/otokonoko.png',
+    imagePath: 'characters/otokonoko.png',
     theme: 'theme-otokonoko',
     priority: 10,
     typeName: '混雑をすり抜ける機動力',
@@ -138,7 +138,7 @@ const CHARACTERS = [
   {
     id: 'shokuryo2',
     name: 'しょくりょう2',
-    imagePath: 'assets/characters/shokuryo2.png',
+    imagePath: 'characters/shokuryo2.png',
     theme: 'theme-shokuryo2',
     priority: 11,
     typeName: '畑を支える縁の下の力持ち',
@@ -149,7 +149,7 @@ const CHARACTERS = [
   {
     id: 'bit',
     name: 'ビット',
-    imagePath: 'assets/characters/bit.png',
+    imagePath: 'characters/bit.png',
     theme: 'theme-bit',
     priority: 12,
     typeName: '障害物を飛び越えるアクティブ',
@@ -160,7 +160,7 @@ const CHARACTERS = [
   {
     id: 'shokuryo1',
     name: 'しょくりょう1',
-    imagePath: 'assets/characters/shokuryo1.png',
+    imagePath: 'characters/shokuryo1.png',
     theme: 'theme-shokuryo1',
     priority: 13,
     typeName: '見た目とノリで楽しむエンジョイ',
@@ -171,7 +171,7 @@ const CHARACTERS = [
   {
     id: 'okojo',
     name: 'オコジョ',
-    imagePath: 'assets/characters/okojo.png',
+    imagePath: 'characters/okojo.png',
     theme: 'theme-okojo',
     priority: 14,
     typeName: '存在感のある遠投サポート',
@@ -182,7 +182,7 @@ const CHARACTERS = [
   {
     id: 'nezumi',
     name: 'ネズミ',
-    imagePath: 'assets/characters/nezumi.png',
+    imagePath: 'characters/nezumi.png',
     theme: 'theme-nezumi',
     priority: 15,
     typeName: 'おちゃめな後半職人',
@@ -193,7 +193,7 @@ const CHARACTERS = [
   {
     id: 'byokuka',
     name: 'びしょくか',
-    imagePath: 'assets/characters/bisyokuka.png',
+    imagePath: 'characters/bisyokuka.png',
     theme: 'theme-byokuka',
     priority: 16,
     typeName: 'わかる人にはわかる玄人',
