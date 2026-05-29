@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1a8fd1">
+  <title>診断結果：キャル｜リップルアイランド おすすめキャラ診断</title>
+
+  <!-- OGP -->
+  <meta property="og:title" content="私の診断結果は【キャル】でした！">
+  <meta property="og:description" content="「みんなを支える献身サポーター」タイプ｜リップルアイランドおすすめキャラ診断">
+  <meta property="og:image" content="https://keeeenpappa.github.io/ripple-character-diagnosis/characters/cal.png">
+  <meta property="og:url" content="https://keeeenpappa.github.io/ripple-character-diagnosis/results/cal.html">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="私の診断結果は【キャル】でした！">
+  <meta name="twitter:description" content="「みんなを支える献身サポーター」タイプ｜リップルアイランドおすすめキャラ診断">
+  <meta name="twitter:image" content="https://keeeenpappa.github.io/ripple-character-diagnosis/characters/cal.png">
+
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div id="app">
+    <section class="screen active theme-cal">
+      <div class="result-container">
+        <h2 class="result-title">あなたにおすすめのキャラは</h2>
+
+        <div class="result-deco result-deco-top"></div>
+
+        <div class="result-character-wrap">
+          <div class="result-character-img-area">
+            <img class="result-character-img loaded" src="../characters/cal.png" alt="キャル">
+          </div>
+          <h3 class="result-character-name">キャル</h3>
+          <p class="result-type-name">「みんなを支える献身サポーター」タイプ</p>
+        </div>
+
+        <div class="result-deco result-deco-mid"></div>
+
+        <div class="result-detail-box">
+          <div class="result-section">
+            <h4 class="result-section-heading">■ 傾向</h4>
+            <p class="result-section-text">あなたは、自分だけが目立つよりも、チーム全体がうまく回ることに喜びを感じるタイプ。<br>誰かが困っていたり、場が崩れそうになった時に「何とか支えたい」と思える人です。<br><br>直接ガンガン動くよりも、周りの状況を見てピンチを和らげる動きが得意。<br>不慣れな人や焦っている人がいる時ほど、あなたの落ち着きがチームを助けます。</p>
+          </div>
+          <div class="result-section">
+            <h4 class="result-section-heading">■ キャラとの相性</h4>
+            <p class="result-section-text">キャルは歌でお客さんの待ち時間減少を止められる、チーム全体を守るスキルを持っています。<br>自分は一時的に動けなくなりますが、その分、仲間が立て直す時間を作れます。<br><br>特に人数が多い時や、他のプレイヤーを支えたい時に活躍しやすいキャラ。<br>「自分が支えることでみんなが動きやすくなる」ことにやりがいを感じる人に向いています。</p>
+          </div>
+          <div class="result-section">
+            <h4 class="result-section-heading">■ こんな人におすすめ</h4>
+            <ul class="result-recommendations">
+              <li>仲間を支えるのが好き</li>
+              <li>不慣れな人をフォローしたい</li>
+              <li>ピンチの時に落ち着いて動きたい</li>
+              <li>かわいいキャラを使いたい</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="result-deco result-deco-bot"></div>
+
+        <div class="result-buttons">
+          <button class="btn btn-share" onclick="shareToX()">Xでシェア</button>
+          <a href="../index.html" class="btn btn-retry">この診断をする</a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    function shareToX() {
+      const text = encodeURIComponent('リップルアイランドおすすめキャラ診断をやってみた！\n結果は【キャル】でした！\n\n#リップルアイランド');
+      const url = encodeURIComponent('https://keeeenpappa.github.io/ripple-character-diagnosis/results/cal.html');
+      window.open('https://x.com/intent/tweet?text=' + text + '&url=' + url, '_blank', 'noopener');
+    }
+  </script>
+</body>
+</html>

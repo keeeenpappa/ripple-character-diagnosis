@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1a8fd1">
+  <title>診断結果：クレル｜リップルアイランド おすすめキャラ診断</title>
+
+  <!-- OGP -->
+  <meta property="og:title" content="私の診断結果は【クレル】でした！">
+  <meta property="og:description" content="「快適さ重視ののんびり効率化」タイプ｜リップルアイランドおすすめキャラ診断">
+  <meta property="og:image" content="https://keeeenpappa.github.io/ripple-character-diagnosis/characters/kureru.png">
+  <meta property="og:url" content="https://keeeenpappa.github.io/ripple-character-diagnosis/results/kureru.html">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="私の診断結果は【クレル】でした！">
+  <meta name="twitter:description" content="「快適さ重視ののんびり効率化」タイプ｜リップルアイランドおすすめキャラ診断">
+  <meta name="twitter:image" content="https://keeeenpappa.github.io/ripple-character-diagnosis/characters/kureru.png">
+
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div id="app">
+    <section class="screen active theme-kureru">
+      <div class="result-container">
+        <h2 class="result-title">あなたにおすすめのキャラは</h2>
+
+        <div class="result-deco result-deco-top"></div>
+
+        <div class="result-character-wrap">
+          <div class="result-character-img-area">
+            <img class="result-character-img loaded" src="../characters/kureru.png" alt="クレル">
+          </div>
+          <h3 class="result-character-name">クレル</h3>
+          <p class="result-type-name">「快適さ重視ののんびり効率化」タイプ</p>
+        </div>
+
+        <div class="result-deco result-deco-mid"></div>
+
+        <div class="result-detail-box">
+          <div class="result-section">
+            <h4 class="result-section-heading">■ 傾向</h4>
+            <p class="result-section-text">あなたは、派手に目立つよりも、ちょっとした作業をスムーズにすることに心地よさを感じるタイプ。<br>大きな逆転よりも、「この手間が減ると楽だな」という細かい効率化が好きです。<br><br>無理に前へ出るより、自分のペースで確実に役立つ動きをするのが得意。<br>穏やかにチームを支える、安定感のあるプレイヤーです。</p>
+          </div>
+          <div class="result-section">
+            <h4 class="result-section-heading">■ キャラとの相性</h4>
+            <p class="result-section-text">クレルは木の実を一気に落とせる、リンゴ回収を快適にしてくれるキャラです。<br>必須級の派手なスキルではありませんが、使うと作業がスムーズになり、細かいストレスを減らせます。<br><br>「少しでも楽に、少しでも効率よく」を大事にするあなたに向いています。<br>かわいらしい見た目も含めて、気軽に選びやすいキャラです。</p>
+          </div>
+          <div class="result-section">
+            <h4 class="result-section-heading">■ こんな人におすすめ</h4>
+            <ul class="result-recommendations">
+              <li>かわいいキャラが好き</li>
+              <li>小さな効率化が好き</li>
+              <li>無難に役立つ能力を選びたい</li>
+              <li>トレジャー作業を快適にしたい</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="result-deco result-deco-bot"></div>
+
+        <div class="result-buttons">
+          <button class="btn btn-share" onclick="shareToX()">Xでシェア</button>
+          <a href="../index.html" class="btn btn-retry">この診断をする</a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    function shareToX() {
+      const text = encodeURIComponent('リップルアイランドおすすめキャラ診断をやってみた！\n結果は【クレル】でした！\n\n#リップルアイランド');
+      const url = encodeURIComponent('https://keeeenpappa.github.io/ripple-character-diagnosis/results/kureru.html');
+      window.open('https://x.com/intent/tweet?text=' + text + '&url=' + url, '_blank', 'noopener');
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1a8fd1">
+  <title>診断結果：おとこのこ｜リップルアイランド おすすめキャラ診断</title>
+
+  <!-- OGP -->
+  <meta property="og:title" content="私の診断結果は【おとこのこ】でした！">
+  <meta property="og:description" content="「混雑をすり抜ける機動力」タイプ｜リップルアイランドおすすめキャラ診断">
+  <meta property="og:image" content="https://keeeenpappa.github.io/ripple-character-diagnosis/characters/otokonoko.png">
+  <meta property="og:url" content="https://keeeenpappa.github.io/ripple-character-diagnosis/results/otokonoko.html">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="私の診断結果は【おとこのこ】でした！">
+  <meta name="twitter:description" content="「混雑をすり抜ける機動力」タイプ｜リップルアイランドおすすめキャラ診断">
+  <meta name="twitter:image" content="https://keeeenpappa.github.io/ripple-character-diagnosis/characters/otokonoko.png">
+
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div id="app">
+    <section class="screen active theme-otokonoko">
+      <div class="result-container">
+        <h2 class="result-title">あなたにおすすめのキャラは</h2>
+
+        <div class="result-deco result-deco-top"></div>
+
+        <div class="result-character-wrap">
+          <div class="result-character-img-area">
+            <img class="result-character-img loaded" src="../characters/otokonoko.png" alt="おとこのこ">
+          </div>
+          <h3 class="result-character-name">おとこのこ</h3>
+          <p class="result-type-name">「混雑をすり抜ける機動力」タイプ</p>
+        </div>
+
+        <div class="result-deco result-deco-mid"></div>
+
+        <div class="result-detail-box">
+          <div class="result-section">
+            <h4 class="result-section-heading">■ 傾向</h4>
+            <p class="result-section-text">あなたは、人が多い場所や狭い場所でも、自分のルートを見つけて動けるタイプ。<br>混雑していてもただ止まるのではなく、「どう抜ければ早いか」を考えながら動けます。<br><br>テンポよく仕事を進めたい気持ちが強く、渋滞やぶつかり合いをうまく避けたい人です。<br>少しテクニカルでも、慣れて使いこなすことに楽しさを感じます。</p>
+          </div>
+          <div class="result-section">
+            <h4 class="result-section-heading">■ キャラとの相性</h4>
+            <p class="result-section-text">おとこのこは、移動中に他プレイヤーや一部の虫との接触を避けられるスキルを持っています。<br>狭いキッチンや人が行き交う導線で、うまく使うとかなり快適に動けます。<br><br>発動には少し慣れが必要ですが、使いこなせると混雑に強いキャラになります。<br>テキパキ動きたいあなたと相性の良い、機動力重視のキャラです。</p>
+          </div>
+          <div class="result-section">
+            <h4 class="result-section-heading">■ こんな人におすすめ</h4>
+            <ul class="result-recommendations">
+              <li>テキパキ動きたい</li>
+              <li>人混みや渋滞がストレス</li>
+              <li>少しテクニカルな能力が好き</li>
+              <li>小さくてかわいい見た目が好き</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="result-deco result-deco-bot"></div>
+
+        <div class="result-buttons">
+          <button class="btn btn-share" onclick="shareToX()">Xでシェア</button>
+          <a href="../index.html" class="btn btn-retry">この診断をする</a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    function shareToX() {
+      const text = encodeURIComponent('リップルアイランドおすすめキャラ診断をやってみた！\n結果は【おとこのこ】でした！\n\n#リップルアイランド');
+      const url = encodeURIComponent('https://keeeenpappa.github.io/ripple-character-diagnosis/results/otokonoko.html');
+      window.open('https://x.com/intent/tweet?text=' + text + '&url=' + url, '_blank', 'noopener');
+    }
+  </script>
+</body>
+</html>

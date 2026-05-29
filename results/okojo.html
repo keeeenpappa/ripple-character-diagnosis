@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1a8fd1">
+  <title>診断結果：オコジョ｜リップルアイランド おすすめキャラ診断</title>
+
+  <!-- OGP -->
+  <meta property="og:title" content="私の診断結果は【オコジョ】でした！">
+  <meta property="og:description" content="「存在感のある遠投サポート」タイプ｜リップルアイランドおすすめキャラ診断">
+  <meta property="og:image" content="https://keeeenpappa.github.io/ripple-character-diagnosis/characters/okojo.png">
+  <meta property="og:url" content="https://keeeenpappa.github.io/ripple-character-diagnosis/results/okojo.html">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="私の診断結果は【オコジョ】でした！">
+  <meta name="twitter:description" content="「存在感のある遠投サポート」タイプ｜リップルアイランドおすすめキャラ診断">
+  <meta name="twitter:image" content="https://keeeenpappa.github.io/ripple-character-diagnosis/characters/okojo.png">
+
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div id="app">
+    <section class="screen active theme-okojo">
+      <div class="result-container">
+        <h2 class="result-title">あなたにおすすめのキャラは</h2>
+
+        <div class="result-deco result-deco-top"></div>
+
+        <div class="result-character-wrap">
+          <div class="result-character-img-area">
+            <img class="result-character-img loaded" src="../characters/okojo.png" alt="オコジョ">
+          </div>
+          <h3 class="result-character-name">オコジョ</h3>
+          <p class="result-type-name">「存在感のある遠投サポート」タイプ</p>
+        </div>
+
+        <div class="result-deco result-deco-mid"></div>
+
+        <div class="result-detail-box">
+          <div class="result-section">
+            <h4 class="result-section-heading">■ 傾向</h4>
+            <p class="result-section-text">あなたは、自分の存在感を出しながらも、チームの役に立つ動きができるタイプ。<br>前に出るだけではなく、遠くへ食材を届けるようなサポートにも面白さを感じます。<br><br>多少ダイナミックな動きでも、うまくハマれば大きく流れを変えられると考えられる人です。<br>大きな見た目や派手な動きも含めて楽しめる、のびのびしたプレイヤーです。</p>
+          </div>
+          <div class="result-section">
+            <h4 class="result-section-heading">■ キャラとの相性</h4>
+            <p class="result-section-text">オコジョは長距離に物を投げられるキャラです。<br>畑の収穫物をキッチンへ送ったり、魚や卵を寄せたりと、使い方次第でチームの移動時間を減らせます。<br><br>投げる先を考える必要はありますが、うまく使えるとかなり便利です。<br>ダイナミックに動きつつ、裏方サポートもしたいあなたに向いています。</p>
+          </div>
+          <div class="result-section">
+            <h4 class="result-section-heading">■ こんな人におすすめ</h4>
+            <ul class="result-recommendations">
+              <li>目立つキャラが好き</li>
+              <li>大きいキャラでも気にしない</li>
+              <li>投げる作業が好き</li>
+              <li>裏方サポートでも活躍したい</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="result-deco result-deco-bot"></div>
+
+        <div class="result-buttons">
+          <button class="btn btn-share" onclick="shareToX()">Xでシェア</button>
+          <a href="../index.html" class="btn btn-retry">この診断をする</a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    function shareToX() {
+      const text = encodeURIComponent('リップルアイランドおすすめキャラ診断をやってみた！\n結果は【オコジョ】でした！\n\n#リップルアイランド');
+      const url = encodeURIComponent('https://keeeenpappa.github.io/ripple-character-diagnosis/results/okojo.html');
+      window.open('https://x.com/intent/tweet?text=' + text + '&url=' + url, '_blank', 'noopener');
+    }
+  </script>
+</body>
+</html>

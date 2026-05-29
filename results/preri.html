@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1a8fd1">
+  <title>診断結果：プレリ｜リップルアイランド おすすめキャラ診断</title>
+
+  <!-- OGP -->
+  <meta property="og:title" content="私の診断結果は【プレリ】でした！">
+  <meta property="og:description" content="「ひらめき重視のテクニカル」タイプ｜リップルアイランドおすすめキャラ診断">
+  <meta property="og:image" content="https://keeeenpappa.github.io/ripple-character-diagnosis/characters/preri.png">
+  <meta property="og:url" content="https://keeeenpappa.github.io/ripple-character-diagnosis/results/preri.html">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="私の診断結果は【プレリ】でした！">
+  <meta name="twitter:description" content="「ひらめき重視のテクニカル」タイプ｜リップルアイランドおすすめキャラ診断">
+  <meta name="twitter:image" content="https://keeeenpappa.github.io/ripple-character-diagnosis/characters/preri.png">
+
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div id="app">
+    <section class="screen active theme-preri">
+      <div class="result-container">
+        <h2 class="result-title">あなたにおすすめのキャラは</h2>
+
+        <div class="result-deco result-deco-top"></div>
+
+        <div class="result-character-wrap">
+          <div class="result-character-img-area">
+            <img class="result-character-img loaded" src="../characters/preri.png" alt="プレリ">
+          </div>
+          <h3 class="result-character-name">プレリ</h3>
+          <p class="result-type-name">「ひらめき重視のテクニカル」タイプ</p>
+        </div>
+
+        <div class="result-deco result-deco-mid"></div>
+
+        <div class="result-detail-box">
+          <div class="result-section">
+            <h4 class="result-section-heading">■ 傾向</h4>
+            <p class="result-section-text">あなたは、普通のやり方だけでなく「こう使ったら便利かも」と考えるのが好きなタイプ。<br>少しクセのあるものでも、自分なりの使い道を見つけることに楽しさを感じます。<br><br>最初から簡単に扱えるものより、慣れるほど味が出るキャラや動きに惹かれやすい人です。<br>工夫がハマった時の気持ちよさを大事にする、ひらめき型のプレイヤーです。</p>
+          </div>
+          <div class="result-section">
+            <h4 class="result-section-heading">■ キャラとの相性</h4>
+            <p class="result-section-text">プレリのトンネルは、うまく使えば移動ルートを大きく変えられるユニークなスキル。<br>置き場所や向きに工夫が必要ですが、ハマる場面ではかなり効率的に動けます。<br><br>シンプルな強さよりも、「自分だけの使い方」を見つけたい人と相性が良いキャラです。<br>テクニックや発想で差をつけたいあなたに向いています。</p>
+          </div>
+          <div class="result-section">
+            <h4 class="result-section-heading">■ こんな人におすすめ</h4>
+            <ul class="result-recommendations">
+              <li>テクニックが必要なキャラが好き</li>
+              <li>変わった動きで効率化したい</li>
+              <li>クセのある能力を使いこなしたい</li>
+              <li>かわいい見た目も大事</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="result-deco result-deco-bot"></div>
+
+        <div class="result-buttons">
+          <button class="btn btn-share" onclick="shareToX()">Xでシェア</button>
+          <a href="../index.html" class="btn btn-retry">この診断をする</a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    function shareToX() {
+      const text = encodeURIComponent('リップルアイランドおすすめキャラ診断をやってみた！\n結果は【プレリ】でした！\n\n#リップルアイランド');
+      const url = encodeURIComponent('https://keeeenpappa.github.io/ripple-character-diagnosis/results/preri.html');
+      window.open('https://x.com/intent/tweet?text=' + text + '&url=' + url, '_blank', 'noopener');
+    }
+  </script>
+</body>
+</html>

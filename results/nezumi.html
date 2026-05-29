@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1a8fd1">
+  <title>診断結果：ネズミ｜リップルアイランド おすすめキャラ診断</title>
+
+  <!-- OGP -->
+  <meta property="og:title" content="私の診断結果は【ネズミ】でした！">
+  <meta property="og:description" content="「おちゃめな後半職人」タイプ｜リップルアイランドおすすめキャラ診断">
+  <meta property="og:image" content="https://keeeenpappa.github.io/ripple-character-diagnosis/characters/nezumi.png">
+  <meta property="og:url" content="https://keeeenpappa.github.io/ripple-character-diagnosis/results/nezumi.html">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="私の診断結果は【ネズミ】でした！">
+  <meta name="twitter:description" content="「おちゃめな後半職人」タイプ｜リップルアイランドおすすめキャラ診断">
+  <meta name="twitter:image" content="https://keeeenpappa.github.io/ripple-character-diagnosis/characters/nezumi.png">
+
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div id="app">
+    <section class="screen active theme-nezumi">
+      <div class="result-container">
+        <h2 class="result-title">あなたにおすすめのキャラは</h2>
+
+        <div class="result-deco result-deco-top"></div>
+
+        <div class="result-character-wrap">
+          <div class="result-character-img-area">
+            <img class="result-character-img loaded" src="../characters/nezumi.png" alt="ネズミ">
+          </div>
+          <h3 class="result-character-name">ネズミ</h3>
+          <p class="result-type-name">「おちゃめな後半職人」タイプ</p>
+        </div>
+
+        <div class="result-deco result-deco-mid"></div>
+
+        <div class="result-detail-box">
+          <div class="result-section">
+            <h4 class="result-section-heading">■ 傾向</h4>
+            <p class="result-section-text">あなたは、少しクセのあるキャラや雰囲気を楽しめるタイプ。<br>見た目の個性やユーモアも含めて、キャラ選びを楽しめます。<br><br>一見ふざけているように見えても、必要な場面ではきちんと役割を果たせる人です。<br>後半でじわじわ活躍するような、知る人ぞ知る強みを好む傾向があります。</p>
+          </div>
+          <div class="result-section">
+            <h4 class="result-section-heading">■ キャラとの相性</h4>
+            <p class="result-section-text">ネズミは魚を素早く釣り上げられる、釣り担当に向いたキャラです。<br>魚の需要が出てくる後半ほど便利さが増し、釣りにかかる時間を大きく短縮できます。<br><br>見た目の個性を楽しみつつ、必要な場面でしっかり役立てるキャラです。<br>おちゃめさと実用性の両方を楽しみたいあなたに向いています。</p>
+          </div>
+          <div class="result-section">
+            <h4 class="result-section-heading">■ こんな人におすすめ</h4>
+            <ul class="result-recommendations">
+              <li>おちゃめなキャラが好き</li>
+              <li>見た目のクセを楽しみたい</li>
+              <li>後半で活躍する能力が好き</li>
+              <li>釣り作業を快適にしたい</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="result-deco result-deco-bot"></div>
+
+        <div class="result-buttons">
+          <button class="btn btn-share" onclick="shareToX()">Xでシェア</button>
+          <a href="../index.html" class="btn btn-retry">この診断をする</a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    function shareToX() {
+      const text = encodeURIComponent('リップルアイランドおすすめキャラ診断をやってみた！\n結果は【ネズミ】でした！\n\n#リップルアイランド');
+      const url = encodeURIComponent('https://keeeenpappa.github.io/ripple-character-diagnosis/results/nezumi.html');
+      window.open('https://x.com/intent/tweet?text=' + text + '&url=' + url, '_blank', 'noopener');
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1a8fd1">
+  <title>診断結果：ラスク｜リップルアイランド おすすめキャラ診断</title>
+
+  <!-- OGP -->
+  <meta property="og:title" content="私の診断結果は【ラスク】でした！">
+  <meta property="og:description" content="「クリアを支える皿洗い職人」タイプ｜リップルアイランドおすすめキャラ診断">
+  <meta property="og:image" content="https://keeeenpappa.github.io/ripple-character-diagnosis/characters/rasuku.png">
+  <meta property="og:url" content="https://keeeenpappa.github.io/ripple-character-diagnosis/results/rasuku.html">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="私の診断結果は【ラスク】でした！">
+  <meta name="twitter:description" content="「クリアを支える皿洗い職人」タイプ｜リップルアイランドおすすめキャラ診断">
+  <meta name="twitter:image" content="https://keeeenpappa.github.io/ripple-character-diagnosis/characters/rasuku.png">
+
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div id="app">
+    <section class="screen active theme-rasuku">
+      <div class="result-container">
+        <h2 class="result-title">あなたにおすすめのキャラは</h2>
+
+        <div class="result-deco result-deco-top"></div>
+
+        <div class="result-character-wrap">
+          <div class="result-character-img-area">
+            <img class="result-character-img loaded" src="../characters/rasuku.png" alt="ラスク">
+          </div>
+          <h3 class="result-character-name">ラスク</h3>
+          <p class="result-type-name">「クリアを支える皿洗い職人」タイプ</p>
+        </div>
+
+        <div class="result-deco result-deco-mid"></div>
+
+        <div class="result-detail-box">
+          <div class="result-section">
+            <h4 class="result-section-heading">■ 傾向</h4>
+            <p class="result-section-text">あなたは、派手な活躍だけでなく「今、本当に必要な作業」をきっちり片付けられるタイプ。<br>目立つ仕事にこだわらず、チームが詰まらないように裏側から支えられます。<br><br>特に、皿不足やホールの混乱など、放置すると一気に崩れるポイントに気づきやすい人です。<br>安定してクリアを目指す時に頼られる、堅実なプレイヤーです。</p>
+          </div>
+          <div class="result-section">
+            <h4 class="result-section-heading">■ キャラとの相性</h4>
+            <p class="result-section-text">ラスクは皿やコップを高速で洗える、実用性の高いスキルを持っています。<br>汚れた食器が溜まると提供が止まるため、皿洗いの速さはそのままチームの安定感につながります。<br><br>初心者帯でも上級者帯でも、食器管理はとても大事な仕事。<br>「地味だけど勝ちに直結する作業」を大切にできるあなたと相性の良いキャラです。</p>
+          </div>
+          <div class="result-section">
+            <h4 class="result-section-heading">■ こんな人におすすめ</h4>
+            <ul class="result-recommendations">
+              <li>地味でも重要な役割が好き</li>
+              <li>状況判断しながら動ける</li>
+              <li>クリア重視でキャラを選びたい</li>
+              <li>皿洗いの重要性がわかる</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="result-deco result-deco-bot"></div>
+
+        <div class="result-buttons">
+          <button class="btn btn-share" onclick="shareToX()">Xでシェア</button>
+          <a href="../index.html" class="btn btn-retry">この診断をする</a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    function shareToX() {
+      const text = encodeURIComponent('リップルアイランドおすすめキャラ診断をやってみた！\n結果は【ラスク】でした！\n\n#リップルアイランド');
+      const url = encodeURIComponent('https://keeeenpappa.github.io/ripple-character-diagnosis/results/rasuku.html');
+      window.open('https://x.com/intent/tweet?text=' + text + '&url=' + url, '_blank', 'noopener');
+    }
+  </script>
+</body>
+</html>

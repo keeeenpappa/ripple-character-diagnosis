@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1a8fd1">
+  <title>診断結果：いもうと｜リップルアイランド おすすめキャラ診断</title>
+
+  <!-- OGP -->
+  <meta property="og:title" content="私の診断結果は【いもうと】でした！">
+  <meta property="og:description" content="「気配り上手な環境整備」タイプ｜リップルアイランドおすすめキャラ診断">
+  <meta property="og:image" content="https://keeeenpappa.github.io/ripple-character-diagnosis/characters/imouto.png">
+  <meta property="og:url" content="https://keeeenpappa.github.io/ripple-character-diagnosis/results/imouto.html">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="私の診断結果は【いもうと】でした！">
+  <meta name="twitter:description" content="「気配り上手な環境整備」タイプ｜リップルアイランドおすすめキャラ診断">
+  <meta name="twitter:image" content="https://keeeenpappa.github.io/ripple-character-diagnosis/characters/imouto.png">
+
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div id="app">
+    <section class="screen active theme-imouto">
+      <div class="result-container">
+        <h2 class="result-title">あなたにおすすめのキャラは</h2>
+
+        <div class="result-deco result-deco-top"></div>
+
+        <div class="result-character-wrap">
+          <div class="result-character-img-area">
+            <img class="result-character-img loaded" src="../characters/imouto.png" alt="いもうと">
+          </div>
+          <h3 class="result-character-name">いもうと</h3>
+          <p class="result-type-name">「気配り上手な環境整備」タイプ</p>
+        </div>
+
+        <div class="result-deco result-deco-mid"></div>
+
+        <div class="result-detail-box">
+          <div class="result-section">
+            <h4 class="result-section-heading">■ 傾向</h4>
+            <p class="result-section-text">あなたは、目の前の作業だけでなく、みんなが動きやすい環境まで気にできるタイプ。<br>直接料理を作るだけではなく、「床が汚れて動きにくい」「このままだと効率が落ちそう」といった変化に気づけます。<br><br>忙しい時ほど後回しにされがちな作業を、ちゃんと大事にできる人です。<br>小さな気配りでチーム全体の動きを良くする、縁の下の支え役です。</p>
+          </div>
+          <div class="result-section">
+            <h4 class="result-section-heading">■ キャラとの相性</h4>
+            <p class="result-section-text">いもうとは床掃除を高速で行えるキャラです。<br>掃除は誰でもできますが、忙しい場面ではつい後回しになりがちで、放置すると全体の移動効率が落ちます。<br><br>だからこそ、掃除の大事さに気づける人が使うとチーム全体がかなり動きやすくなります。<br>細かいところまで気を配れるあなたにぴったりです。</p>
+          </div>
+          <div class="result-section">
+            <h4 class="result-section-heading">■ こんな人におすすめ</h4>
+            <ul class="result-recommendations">
+              <li>マメな性格</li>
+              <li>みんなが動きやすい環境を作りたい</li>
+              <li>ゲーム全体の流れを見られる</li>
+              <li>「掃除の大事さ」がわかる</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="result-deco result-deco-bot"></div>
+
+        <div class="result-buttons">
+          <button class="btn btn-share" onclick="shareToX()">Xでシェア</button>
+          <a href="../index.html" class="btn btn-retry">この診断をする</a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    function shareToX() {
+      const text = encodeURIComponent('リップルアイランドおすすめキャラ診断をやってみた！\n結果は【いもうと】でした！\n\n#リップルアイランド');
+      const url = encodeURIComponent('https://keeeenpappa.github.io/ripple-character-diagnosis/results/imouto.html');
+      window.open('https://x.com/intent/tweet?text=' + text + '&url=' + url, '_blank', 'noopener');
+    }
+  </script>
+</body>
+</html>

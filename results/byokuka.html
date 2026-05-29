@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1a8fd1">
+  <title>診断結果：びしょくか｜リップルアイランド おすすめキャラ診断</title>
+
+  <!-- OGP -->
+  <meta property="og:title" content="私の診断結果は【びしょくか】でした！">
+  <meta property="og:description" content="「わかる人にはわかる玄人」タイプ｜リップルアイランドおすすめキャラ診断">
+  <meta property="og:image" content="https://keeeenpappa.github.io/ripple-character-diagnosis/characters/bisyokuka.png">
+  <meta property="og:url" content="https://keeeenpappa.github.io/ripple-character-diagnosis/results/byokuka.html">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="私の診断結果は【びしょくか】でした！">
+  <meta name="twitter:description" content="「わかる人にはわかる玄人」タイプ｜リップルアイランドおすすめキャラ診断">
+  <meta name="twitter:image" content="https://keeeenpappa.github.io/ripple-character-diagnosis/characters/bisyokuka.png">
+
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div id="app">
+    <section class="screen active theme-byokuka">
+      <div class="result-container">
+        <h2 class="result-title">あなたにおすすめのキャラは</h2>
+
+        <div class="result-deco result-deco-top"></div>
+
+        <div class="result-character-wrap">
+          <div class="result-character-img-area">
+            <img class="result-character-img loaded" src="../characters/bisyokuka.png" alt="びしょくか">
+          </div>
+          <h3 class="result-character-name">びしょくか</h3>
+          <p class="result-type-name">「わかる人にはわかる玄人」タイプ</p>
+        </div>
+
+        <div class="result-deco result-deco-mid"></div>
+
+        <div class="result-detail-box">
+          <div class="result-section">
+            <h4 class="result-section-heading">■ 傾向</h4>
+            <p class="result-section-text">あなたは、目立つ作業だけでなく、攻略の流れを支える重要ポイントに気づけるタイプ。<br>初心者には見えにくい問題でも、「ここが遅れると後で崩れる」と先回りして考えられます。<br><br>派手な活躍よりも、チームが詰まる原因を減らすことにやりがいを感じる人です。<br>ゲーム理解が深くなるほど、自分の役割の大事さを実感できるタイプです。</p>
+          </div>
+          <div class="result-section">
+            <h4 class="result-section-heading">■ キャラとの相性</h4>
+            <p class="result-section-text">びしょくかは虫の居場所を探知できる、後半で強みが出やすいキャラです。<br>チーズやミルクなどの素材が必要になる場面では、虫探しの時間短縮がそのまま攻略の安定につながります。<br><br>一見わかりにくい能力ですが、素材調達の遅れを防げるのは大きな強みです。<br>先を読んでチームを支えたいあなたに向いています。</p>
+          </div>
+          <div class="result-section">
+            <h4 class="result-section-heading">■ こんな人におすすめ</h4>
+            <ul class="result-recommendations">
+              <li>玄人向けキャラが好き</li>
+              <li>後半の難所を支えたい</li>
+              <li>素材調達の遅れを防ぎたい</li>
+              <li>渋いキャラを使いたい</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="result-deco result-deco-bot"></div>
+
+        <div class="result-buttons">
+          <button class="btn btn-share" onclick="shareToX()">Xでシェア</button>
+          <a href="../index.html" class="btn btn-retry">この診断をする</a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    function shareToX() {
+      const text = encodeURIComponent('リップルアイランドおすすめキャラ診断をやってみた！\n結果は【びしょくか】でした！\n\n#リップルアイランド');
+      const url = encodeURIComponent('https://keeeenpappa.github.io/ripple-character-diagnosis/results/byokuka.html');
+      window.open('https://x.com/intent/tweet?text=' + text + '&url=' + url, '_blank', 'noopener');
+    }
+  </script>
+</body>
+</html>
