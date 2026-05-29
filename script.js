@@ -15,10 +15,9 @@ const SHARE_TEXT_TEMPLATE =
   `リップルアイランドおすすめキャラ診断をやってみた！\n結果は【{name}】でした！\n\n#リップルアイランド`;
 
 /* ----------------------------------------
-   ② 診断ページURL（シェア時に付与）
-      GitHub Pages公開後に書き換えてください
+   ② GitHub PagesのベースURL
    ---------------------------------------- */
-const SHARE_URL = location.href.split('?')[0];
+const BASE_URL = 'https://keeeenpappa.github.io/ripple-character-diagnosis/';
 
 /* ----------------------------------------
    ③ キャラクター定義
@@ -625,15 +624,16 @@ function showResult() {
   img.onerror = () => { img.classList.remove('loaded'); placeholder.classList.remove('hidden'); };
 
   // シェアボタン
-  document.getElementById('btn-share').onclick = () => shareToX(winner.name);
+  document.getElementById('btn-share').onclick = () => shareToX(winner.name, winner.id);
 
   showScreen('result');
 }
 
 /* ---- Xシェア ---- */
-function shareToX(charName) {
+function shareToX(charName, charId) {
   const text = SHARE_TEXT_TEMPLATE.replace('{name}', charName);
-  const url  = encodeURIComponent(SHARE_URL);
+  const resultUrl = `${BASE_URL}results/${charId}.html`;
+  const url  = encodeURIComponent(resultUrl);
   const t    = encodeURIComponent(text);
   window.open(`https://x.com/intent/tweet?text=${t}&url=${url}`, '_blank', 'noopener');
 }

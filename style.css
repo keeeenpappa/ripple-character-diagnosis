@@ -752,6 +752,14 @@ body {
   .result-character-name { font-size: 1.7rem; }
 }
 
+/* 結果ページ：リンクをボタン風に表示 */
+a.btn {
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  line-height: 1.3;
+}
+
 /* フォーカスアクセシビリティ */
 .btn:focus-visible {
   outline: 3px solid #1a8fd1;
